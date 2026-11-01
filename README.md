@@ -1,1 +1,112 @@
-IyBhZ2VudC1ndWFyZHJhaWxzIEhvbWVicmV3IFRhcAoKUHVibGljIFtIb21lYnJld10oaHR0cHM6Ly9icmV3LnNoKSB0YXAgd2l0aCBmb3JtdWxhZSB0aGF0IGluc3RhbGwgKipwcmVidWlsdCBiaW5hcmllcyoqCmZyb20gYWdlbnQtZ3VhcmRyYWlscyBHaXRIdWIgUmVsZWFzZXMgLSBub3RoaW5nIGlzIGNvbXBpbGVkIG9uIHRoZSB1c2VyJ3MgbWFjaGluZS4KCiMjIEluc3RhbGwKCmBgYGJhc2gKYnJldyBpbnN0YWxsIGFnZW50LWd1YXJkcmFpbHMvdGFwLzxmb3JtdWxhPgpgYGAKClRoZSB0YXAgaXMgY29ubmVjdGVkIGF1dG9tYXRpY2FsbHkgb24gZmlyc3QgaW5zdGFsbC4gVG8gbWFuYWdlIGl0IGV4cGxpY2l0bHk6CgpgYGBiYXNoCmJyZXcgdGFwIGFnZW50LWd1YXJkcmFpbHMvdGFwIGh0dHBzOi8vZ2l0aHViLmNvbS9hZ2VudC1ndWFyZHJhaWxzL2hvbWVicmV3LXRhcApicmV3IHVwZGF0ZSAgICMgcHVsbHMgdGFwIHVwZGF0ZXMgYWxvbmdzaWRlIEhvbWVicmV3CmBgYAoKIyMgRm9ybXVsYWUKCnwgRm9ybXVsYSB8IERlc2NyaXB0aW9uIHwgU3RhdHVzIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfC0tLS0tLS0tfAp8IGBzaGVsbC13YXJkZW5gIHwgT3JjaGVzdHJhdG9yIGVuZ2luZSBvZiB0aGUgc2hlbGwtd2FyZGVuIHBlcm1pc3Npb24gc3lzdGVtICh3aXJlIHYxLCBOREpTT04gSlNPTi1SUEMgb3ZlciBzdGRpbykgfCAqKnBsYW5uZWQqKiAtIHdhaXRpbmcgZm9yIHRoZSBmaXJzdCB1cHN0cmVhbSByZWxlYXNlIChbYWdlbnQtZ3VhcmRyYWlscy9zaGVsbC13YXJkZW5dKGh0dHBzOi8vZ2l0aHViLmNvbS9hZ2VudC1ndWFyZHJhaWxzL3NoZWxsLXdhcmRlbikpIHwKCiMjIFJlbGVhc2UgYXJ0aWZhY3QgY29udmVudGlvbgoKRm9ybXVsYWUgaW4gdGhpcyB0YXAgZG93bmxvYWQgdmVyc2lvbmVkIGFyY2hpdmVzIGZyb20gdXBzdHJlYW0gR2l0SHViIFJlbGVhc2VzLgpFdmVyeSByZWxlYXNlIGNvbnN1bWVkIGJ5IGEgZm9ybXVsYSAqKm11c3QqKiBwdWJsaXNoIHRoZXNlIGFydGlmYWN0czoKCmBgYHRleHQKPG5hbWU+Xzx2ZXJzaW9uPl9kYXJ3aW5fYXJtNjQudGFyLmd6CjxuYW1lPl88dmVyc2lvbj5fZGFyd2luX2FtZDY0LnRhci5nego8bmFtZT5fPHZlcnNpb24+X2xpbnV4X2FybTY0LnRhci5nego8bmFtZT5fPHZlcnNpb24+X2xpbnV4X2FtZDY0LnRhci5negpjaGVja3N1bXMudHh0CmBgYAoKLSBlYWNoIGFyY2hpdmUgdW5wYWNrcyB0aGUgZXhlY3V0YWJsZSBhdCBpdHMgdG9wIGxldmVsIGFzIGA8bmFtZT5gOwotIGBjaGVja3N1bXMudHh0YCBpcyBgc2hhMjU2c3VtYCBvdXRwdXQgLSBmb3JtdWxhIGBzaGEyNTZgIHZhbHVlcyBhcmUgY29waWVkIGZyb20gaXQ7Ci0gcmVsZWFzZSB0YWdzIGZvbGxvdyBgdjxzZW12ZXI+YCAoZS5nLiBgdjAuMS4wYCkgYW5kIG1hdGNoIGB2ZXJzaW9uICJ4LnkueiJgIGluIGZvcm11bGFlLgoKQmVjYXVzZSB0aGlzIHRhcCBpcyAqKnB1YmxpYyoqLCB1cHN0cmVhbSByZXBvc2l0b3JpZXMgd2hvc2UgYXJ0aWZhY3RzIGFyZSBpbnN0YWxsZWQgdmlhCkhvbWVicmV3IG11c3QgYmUgcHVibGljIChvciBwdWJsaXNoIHRoZWlyIHJlbGVhc2UgYXNzZXRzIHB1YmxpY2x5KSwgb3RoZXJ3aXNlIGFub255bW91cwpgcmVsZWFzZXMvZG93bmxvYWQvLi4uYCByZXF1ZXN0cyBmYWlsIGFuZCBgYnJldyBpbnN0YWxsYCBicmVha3MuCgojIyBBZGRpbmcgYSBmb3JtdWxhCgoxLiBDcmVhdGUgYEZvcm11bGEvPG5hbWU+LnJiYCwgZS5nLiB0aGUgcGxhbm5lZCBgRm9ybXVsYS9zaGVsbC13YXJkZW4ucmJgOgoKYGBgcnVieQpjbGFzcyBTaGVsbFdhcmRlbiA8IEZvcm11bGEKICBkZXNjICJPcmNoZXN0cmF0b3IgZW5naW5lIG9mIHRoZSBzaGVsbC13YXJkZW4gcGVybWlzc2lvbiBzeXN0ZW0iCiAgaG9tZXBhZ2UgImh0dHBzOi8vZ2l0aHViLmNvbS9hZ2VudC1ndWFyZHJhaWxzL3NoZWxsLXdhcmRlbiIKICB2ZXJzaW9uICIwLjEuMCIKICBsaWNlbnNlICJNSVQiCgogIG9uX21hY29zIGRvCiAgICBvbl9hcm0gZG8KICAgICAgdXJsICJodHRwczovL2dpdGh1Yi5jb20vYWdlbnQtZ3VhcmRyYWlscy9zaGVsbC13YXJkZW4vcmVsZWFzZXMvZG93bmxvYWQvdiN7dmVyc2lvbn0vc2hlbGwtd2FyZGVuXyN7dmVyc2lvbn1fZGFyd2luX2FybTY0LnRhci5neiIKICAgICAgc2hhMjU2ICIuLi4iICMgY29weSBmcm9tIHJlbGVhc2UgY2hlY2tzdW1zLnR4dAogICAgZW5kCiAgICBvbl9pbnRlbCBkbwogICAgICB1cmwgImh0dHBzOi8vZ2l0aHViLmNvbS9hZ2VudC1ndWFyZHJhaWxzL3NoZWxsLXdhcmRlbi9yZWxlYXNlcy9kb3dubG9hZC92I3t2ZXJzaW9ufS9zaGVsbC13YXJkZW5fI3t2ZXJzaW9ufV9kYXJ3aW5fYW1kNjQudGFyLmd6IgogICAgICBzaGEyNTYgIi4uLiIKICAgIGVuZAogIGVuZAoKICBvbl9saW51eCBkbwogICAgb25fYXJtIGRvCiAgICAgIHVybCAiaHR0cHM6Ly9naXRodWIuY29tL2FnZW50LWd1YXJkcmFpbHMvc2hlbGwtd2FyZGVuL3JlbGVhc2VzL2Rvd25sb2FkL3Yje3ZlcnNpb259L3NoZWxsLXdhcmRlbl8je3ZlcnNpb259X2xpbnV4X2FybTY0LnRhci5neiIKICAgICAgc2hhMjU2ICIuLi4iCiAgICBlbmQKICAgIG9uX2ludGVsIGRvCiAgICAgIHVybCAiaHR0cHM6Ly9naXRodWIuY29tL2FnZW50LWd1YXJkcmFpbHMvc2hlbGwtd2FyZGVuL3JlbGVhc2VzL2Rvd25sb2FkL3Yje3ZlcnNpb259L3NoZWxsLXdhcmRlbl8je3ZlcnNpb259X2xpbnV4X2FtZDY0LnRhci5neiIKICAgICAgc2hhMjU2ICIuLi4iCiAgICBlbmQKICBlbmQKCiAgZGVmIGluc3RhbGwKICAgIGJpbi5pbnN0YWxsICJzaGVsbC13YXJkZW4iCiAgZW5kCgogIHRlc3QgZG8KICAgIGFzc2VydF9tYXRjaCB2ZXJzaW9uLnRvX3MsIHNoZWxsX291dHB1dCgiI3tiaW59L3NoZWxsLXdhcmRlbiAtLXZlcnNpb24iKQogIGVuZAplbmQKYGBgCgoyLiBWYWxpZGF0ZSBsb2NhbGx5OgoKYGBgYmFzaApicmV3IHN0eWxlIC0tZml4IGFnZW50LWd1YXJkcmFpbHMvdGFwCmJyZXcgYXVkaXQgLS1zdHJpY3QgYWdlbnQtZ3VhcmRyYWlscy90YXAvc2hlbGwtd2FyZGVuCmJyZXcgaW5zdGFsbCBhZ2VudC1ndWFyZHJhaWxzL3RhcC9zaGVsbC13YXJkZW4KYnJldyB0ZXN0IGFnZW50LWd1YXJkcmFpbHMvdGFwL3NoZWxsLXdhcmRlbgpicmV3IGxpdmVjaGVjayBhZ2VudC1ndWFyZHJhaWxzL3RhcC9zaGVsbC13YXJkZW4KYGBgCgozLiBGb3IgdmVyc2lvbiBidW1wcyBwcmVmZXI6CgpgYGBiYXNoCmJyZXcgYnVtcC1mb3JtdWxhLXByIC0tdXJsPTxuZXctdXJsPiAtLXNoYTI1Nj08aGFzaD4gYWdlbnQtZ3VhcmRyYWlscy90YXAvc2hlbGwtd2FyZGVuCmBgYAoKIyMgQ0kKCmAuZ2l0aHViL3dvcmtmbG93cy90ZXN0cy55bWxgIHJ1bnMgYGJyZXcgdGVzdC1ib3RgIChjbGVhbnVwLCBzZXR1cCwgdGFwIHN5bnRheCkgb24KVWJ1bnR1IGFuZCBtYWNPUyBmb3IgZXZlcnkgcHVzaCB0byBgbWFpbmAgYW5kIGV2ZXJ5IHB1bGwgcmVxdWVzdC4KCiMjIExpY2Vuc2UKCkZvcm11bGEgY29kZSBpcyBNSVQtbGljZW5zZWQuIEluc3RhbGxlZCBzb2Z0d2FyZSBjYXJyaWVzIGl0cyBvd24gdXBzdHJlYW0gbGljZW5zZS4=
+# agent-guardrails Homebrew Tap
+
+Public [Homebrew](https://brew.sh) tap with formulae that install **prebuilt binaries**
+from agent-guardrails GitHub Releases - nothing is compiled on the user's machine.
+
+## Install
+
+```bash
+brew install agent-guardrails/tap/<formula>
+```
+
+The tap is connected automatically on first install. To manage it explicitly:
+
+```bash
+brew tap agent-guardrails/tap https://github.com/agent-guardrails/homebrew-tap
+brew update   # pulls tap updates alongside Homebrew
+```
+
+## Formulae
+
+| Formula | Description | Status |
+|---------|-------------|--------|
+| `shell-warden` | Orchestrator engine of the shell-warden permission system (wire v1, NDJSON JSON-RPC over stdio) | **planned** - waiting for the first upstream release ([agent-guardrails/shell-warden](https://github.com/agent-guardrails/shell-warden)) |
+
+## Release artifact convention
+
+Formulae in this tap download versioned archives from upstream GitHub Releases.
+Every release consumed by a formula **must** publish these artifacts:
+
+```text
+<name>_<version>_darwin_arm64.tar.gz
+<name>_<version>_darwin_amd64.tar.gz
+<name>_<version>_linux_arm64.tar.gz
+<name>_<version>_linux_amd64.tar.gz
+checksums.txt
+```
+
+- each archive unpacks the executable at its top level as `<name>`;
+- `checksums.txt` is `sha256sum` output - formula `sha256` values are copied from it;
+- release tags follow `v<semver>` (e.g. `v0.1.0`) and match `version "x.y.z"` in formulae.
+
+Because this tap is **public**, upstream repositories whose artifacts are installed via
+Homebrew must be public (or publish their release assets publicly), otherwise anonymous
+`releases/download/...` requests fail and `brew install` breaks.
+
+## Adding a formula
+
+1. Create `Formula/<name>.rb`, e.g. the planned `Formula/shell-warden.rb`:
+
+```ruby
+class ShellWarden < Formula
+  desc "Orchestrator engine of the shell-warden permission system"
+  homepage "https://github.com/agent-guardrails/shell-warden"
+  version "0.1.0"
+  license "MIT"
+
+  on_macos do
+    on_arm do
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_darwin_arm64.tar.gz"
+      sha256 "..." # copy from release checksums.txt
+    end
+    on_intel do
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_darwin_amd64.tar.gz"
+      sha256 "..."
+    end
+  end
+
+  on_linux do
+    on_arm do
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_linux_arm64.tar.gz"
+      sha256 "..."
+    end
+    on_intel do
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_linux_amd64.tar.gz"
+      sha256 "..."
+    end
+  end
+
+  def install
+    bin.install "shell-warden"
+  end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/shell-warden --version")
+  end
+end
+```
+
+2. Validate locally:
+
+```bash
+brew style --fix agent-guardrails/tap
+brew audit --strict agent-guardrails/tap/shell-warden
+brew install agent-guardrails/tap/shell-warden
+brew test agent-guardrails/tap/shell-warden
+brew livecheck agent-guardrails/tap/shell-warden
+```
+
+3. For version bumps prefer:
+
+```bash
+brew bump-formula-pr --url=<new-url> --sha256=<hash> agent-guardrails/tap/shell-warden
+```
+
+## CI
+
+`.github/workflows/tests.yml` runs `brew test-bot` (cleanup, setup, tap syntax) on
+Ubuntu and macOS for every push to `main` and every pull request.
+
+## License
+
+Formula code is MIT-licensed. Installed software carries its own upstream license.
