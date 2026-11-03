@@ -20,7 +20,7 @@ brew update   # pulls tap updates alongside Homebrew
 
 | Formula | Description | Status |
 |---------|-------------|--------|
-| `shell-warden` | Decision engine of the shell-warden permission system (persistent JSON-RPC over stdio, fail-closed) | **released** `0.2.1` ([agent-guardrails/shell-warden](https://github.com/agent-guardrails/shell-warden) — [v0.2.1](https://github.com/agent-guardrails/shell-warden/releases/tag/v0.2.1)) |
+| `shell-warden` | One-shot letter checker of the shell-warden permission system (letter in → verdict out, per-check spawn, fail-closed) | **released** `0.2.2` ([agent-guardrails/shell-warden](https://github.com/agent-guardrails/shell-warden) — [v0.2.2](https://github.com/agent-guardrails/shell-warden/releases/tag/v0.2.2)) |
 
 ## Release artifact convention
 
