@@ -49,19 +49,18 @@ Homebrew must be public (or publish their release assets publicly), otherwise an
 
 ```ruby
 class ShellWarden < Formula
-  desc "Orchestrator engine of the shell-warden permission system"
+  desc "One-shot decision binary of the shell-warden permission system"
   homepage "https://github.com/agent-guardrails/shell-warden"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_darwin_arm64.tar.gz"
       # placeholder checksum; copy the real one from the release checksums.txt
       sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_darwin_amd64.tar.gz"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_darwin_amd64.tar.gz"
       # placeholder checksum; copy the real one from the release checksums.txt
       sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855"
     end
@@ -69,12 +68,12 @@ class ShellWarden < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_linux_arm64.tar.gz"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_linux_arm64.tar.gz"
       # placeholder checksum; copy the real one from the release checksums.txt
       sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_linux_amd64.tar.gz"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_linux_amd64.tar.gz"
       # placeholder checksum; copy the real one from the release checksums.txt
       sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855"
     end
