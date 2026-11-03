@@ -1,26 +1,26 @@
 class ShellWarden < Formula
-  desc "Decision engine of the shell-warden permission system (JSON-RPC stdio)"
+  desc "One-shot letter checker of the shell-warden permission system"
   homepage "https://github.com/agent-guardrails/shell-warden"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_darwin_arm64.tar.gz"
-      sha256 "c92a41a54f7ce4335e5491759a5e2951e5a18aa091b2589a8353d0458ab83252"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_darwin_arm64.tar.gz"
+      sha256 "4945679e2038da67446ef4e41b51a98ea534cabc97073786226add8bf9029268"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_darwin_amd64.tar.gz"
-      sha256 "473abb9d42b69b35335c9c74dc54bf0d9785fc7b842b933cd9ecde2d63b49dc8"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_darwin_amd64.tar.gz"
+      sha256 "037040c7740991168bd2eef930e0bc2f0bb1e0ca3a9f1f955ab8307519669193"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_linux_arm64.tar.gz"
-      sha256 "a51b788d7c29f9e9457cb22f4f43097fe012aa1c6bd06737cf3d420894f5d4af"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_linux_arm64.tar.gz"
+      sha256 "cb96409b33230d56cd74d2b1bff8f0ee80afe1387b8481dbd75cec7f177320d5"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_linux_amd64.tar.gz"
-      sha256 "7fb56cf63c1d0d16d1c507f7e81a17860dcd9a998d37d4b4dddff759120837fc"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_linux_amd64.tar.gz"
+      sha256 "7e8b91e0f7514a411fe517b0b223ac000fe1ee8acc26df182cb6003d9c2921cd"
     end
   end
 
