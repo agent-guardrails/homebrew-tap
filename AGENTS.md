@@ -4,6 +4,14 @@ This repository is the **public Homebrew tap** for the organization: formulae in
 binaries from upstream GitHub Releases, nothing is compiled on user machines. Conventions live in
 `README.md` (installation, release artifact convention, formula template).
 
+## Workflow
+
+Per the org rules ([agent-guardrails/.github/AGENTS.md](https://github.com/agent-guardrails/.github/blob/main/AGENTS.md)):
+- every non-trivial change starts with a GitHub issue in this repo, linked to the
+  ["Agent Guardrails Roadmap"](https://github.com/orgs/agent-guardrails/projects/1) project;
+- reference the issue in commits and PRs (`Closes #123`) and move the issue to Done on merge;
+- **all changes land via pull requests** — never push directly to the default branch.
+
 ## Sync duties (part of Definition of Done)
 
 - **Added or changed a formula** -> update the formula table in `README.md` **in the same change**.
