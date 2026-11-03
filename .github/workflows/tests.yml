@@ -35,10 +35,6 @@ jobs:
           key: ${{ matrix.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
           restore-keys: ${{ matrix.os }}-rubygems-
 
-      - name: Install Homebrew Bundler RubyGems
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: brew install-bundler-gems --groups=brew_bot
-
       - name: Run brew test-bot
         run: |
           brew test-bot --only-cleanup-before-push
