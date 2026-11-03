@@ -1,26 +1,26 @@
 class ShellWarden < Formula
-  desc "One-shot decision binary of the shell-warden permission system"
+  desc "Decision engine of the shell-warden permission system (JSON-RPC stdio)"
   homepage "https://github.com/agent-guardrails/shell-warden"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_darwin_arm64.tar.gz"
-      sha256 "133083da9df5e0d364d1f88ceacc96bfca7e5db157588de1da19fc9838a70a17"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_darwin_arm64.tar.gz"
+      sha256 "c92a41a54f7ce4335e5491759a5e2951e5a18aa091b2589a8353d0458ab83252"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_darwin_amd64.tar.gz"
-      sha256 "cb07bcfcddbda188b8e88a18fb00bac350f36c8db54cfa0c4f2bbb2801424cd6"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_darwin_amd64.tar.gz"
+      sha256 "473abb9d42b69b35335c9c74dc54bf0d9785fc7b842b933cd9ecde2d63b49dc8"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_linux_arm64.tar.gz"
-      sha256 "977f4c038233f085e0dcaebee4348131c1629b172aee1383f469c41e0c316b58"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_linux_arm64.tar.gz"
+      sha256 "a51b788d7c29f9e9457cb22f4f43097fe012aa1c6bd06737cf3d420894f5d4af"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.1.0/shell-warden_0.1.0_linux_amd64.tar.gz"
-      sha256 "1e7121e1793e152a5f7bed3de0207cad6e63e74c2d5e1824255fef4d821af816"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.1/shell-warden_0.2.1_linux_amd64.tar.gz"
+      sha256 "7fb56cf63c1d0d16d1c507f7e81a17860dcd9a998d37d4b4dddff759120837fc"
     end
   end
 
