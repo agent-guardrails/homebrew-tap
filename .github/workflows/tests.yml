@@ -37,6 +37,6 @@ jobs:
 
       - name: Run brew test-bot
         run: |
-          brew test-bot --only-cleanup-before-push
+          brew test-bot --only-cleanup-before
           brew test-bot --only-setup
           brew test-bot --only-tap-syntax
