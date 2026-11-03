@@ -37,7 +37,7 @@ jobs:
 
       - name: Install Homebrew Bundler RubyGems
         if: steps.cache.outputs.cache-hit != 'true'
-        run: brew install-bundler-gems --only=brew_bot
+        run: brew install-bundler-gems --groups=brew_bot
 
       - name: Run brew test-bot
         run: |
