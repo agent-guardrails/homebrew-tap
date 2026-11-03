@@ -1,5 +1,5 @@
 class ShellWarden < Formula
-  desc "One-shot letter checker of the shell-warden permission system (per-check spawn)"
+  desc "One-shot letter checker of the shell-warden permission system (per-check spawn, ADR-0016)"
   homepage "https://github.com/agent-guardrails/shell-warden"
   license "MIT"
 
