@@ -48,7 +48,7 @@ Homebrew must be public (or publish their release assets publicly), otherwise an
 1. Create `Formula/<name>.rb`, e.g. the planned `Formula/shell-warden.rb`:
 
 ```ruby
-class ShellWarden < Formula
+class ExampleFormula < Formula
   desc "One-shot decision binary of the shell-warden permission system"
   homepage "https://github.com/agent-guardrails/shell-warden"
   license "MIT"
