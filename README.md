@@ -57,22 +57,22 @@ class ShellWarden < Formula
   on_macos do
     on_arm do
       url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_darwin_arm64.tar.gz"
-      sha256 "..." # copy from release checksums.txt
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855" # placeholder, copy from release checksums.txt
     end
     on_intel do
       url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_darwin_amd64.tar.gz"
-      sha256 "..."
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855" # placeholder, copy from release checksums.txt
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_linux_arm64.tar.gz"
-      sha256 "..."
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855" # placeholder, copy from release checksums.txt
     end
     on_intel do
       url "https://github.com/agent-guardrails/shell-warden/releases/download/v#{version}/shell-warden_#{version}_linux_amd64.tar.gz"
-      sha256 "..."
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4699b934ca495991b7852b855" # placeholder, copy from release checksums.txt
     end
   end
 
