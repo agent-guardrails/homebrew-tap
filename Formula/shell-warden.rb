@@ -1,7 +1,6 @@
 class ShellWarden < Formula
-  desc "One-shot decision binary of the shell-warden permission system: parse → classify → match → verdict"
+  desc "One-shot decision binary of the shell-warden permission system"
   homepage "https://github.com/agent-guardrails/shell-warden"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
