@@ -1,26 +1,26 @@
 class ShellWarden < Formula
-  desc "One-shot letter checker of the shell-warden permission system"
+  desc "One-shot letter checker of the shell-warden permission system (v2)"
   homepage "https://github.com/agent-guardrails/shell-warden"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_darwin_arm64.tar.gz"
-      sha256 "4945679e2038da67446ef4e41b51a98ea534cabc97073786226add8bf9029268"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_darwin_arm64.tar.gz"
+      sha256 "4c8a2e0580e13fcb0c7bc287d99e09bb488a76d7e65aeb408f10f5c0c1b80e85"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_darwin_amd64.tar.gz"
-      sha256 "037040c7740991168bd2eef930e0bc2f0bb1e0ca3a9f1f955ab8307519669193"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_darwin_amd64.tar.gz"
+      sha256 "086b1a6a1f041a8f0cd7408ff154cbf8c3d379cbd1e5bbce58a8a2efb6166258"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_linux_arm64.tar.gz"
-      sha256 "cb96409b33230d56cd74d2b1bff8f0ee80afe1387b8481dbd75cec7f177320d5"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_linux_arm64.tar.gz"
+      sha256 "c4dfd6708aff2a2b705a0ff50bb32eeb20b127816e4e04dcd6a040bc2adeed6f"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.2.2/shell-warden_0.2.2_linux_amd64.tar.gz"
-      sha256 "7e8b91e0f7514a411fe517b0b223ac000fe1ee8acc26df182cb6003d9c2921cd"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_linux_amd64.tar.gz"
+      sha256 "87f68506aca175993e2d24ef6a28a733509875a29bfd0ec040d391c6638501f2"
     end
   end
 
