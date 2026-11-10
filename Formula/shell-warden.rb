@@ -5,22 +5,22 @@ class ShellWarden < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_darwin_arm64.tar.gz"
-      sha256 "4c8a2e0580e13fcb0c7bc287d99e09bb488a76d7e65aeb408f10f5c0c1b80e85"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.4.0/shell-warden_0.4.0_darwin_arm64.tar.gz"
+      sha256 "3390075ffc6f48bbcef348e1dda6908cf26667f9ee041df624cc50a6825fe164"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_darwin_amd64.tar.gz"
-      sha256 "086b1a6a1f041a8f0cd7408ff154cbf8c3d379cbd1e5bbce58a8a2efb6166258"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.4.0/shell-warden_0.4.0_darwin_amd64.tar.gz"
+      sha256 "2060bb07fa34bfdb3dd6fa417cf582176f8d318fc3823474ca5e4438c4fa73af"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_linux_arm64.tar.gz"
-      sha256 "c4dfd6708aff2a2b705a0ff50bb32eeb20b127816e4e04dcd6a040bc2adeed6f"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.4.0/shell-warden_0.4.0_linux_arm64.tar.gz"
+      sha256 "5664a233b1df1d09ebd7db451f4adb18a35a67835706523c01d56341271f1e16"
     end
     on_intel do
-      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.3.0/shell-warden_0.3.0_linux_amd64.tar.gz"
-      sha256 "87f68506aca175993e2d24ef6a28a733509875a29bfd0ec040d391c6638501f2"
+      url "https://github.com/agent-guardrails/shell-warden/releases/download/v0.4.0/shell-warden_0.4.0_linux_amd64.tar.gz"
+      sha256 "9e0ea3c4fc18f89d1718d195e44b59ee60bf36c9803db27a5ed78c634d09d792"
     end
   end
 
